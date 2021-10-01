@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Contact</title>
+    </head>
+    <body>
+        <h1>Contact</h1>
+        <p>Yui Inagawa<br>101 Farm Acre Road<br>Syracuse, NY 13210</p>
+        <a href="mailto:ysinagaw@syr.edu" target="_blank">ysinagaw@syr.edu</a>
+        <br>
+        <a href="https://www.linkedin.com/in/yuiinagawa/">
+            <img src="../images/logo-sized.png" alt="my photo">
+        </a>
+        <a href="https://www.linkedin.com/in/yuiinagawa/" target="_blank">My LinkedIn Profile</a>
+        <br>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2917.0480928648317!2d-76.1245304845227!3d43.01937487914818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f482afc05999%3A0x2ceef35689627af1!2s101%20Farm%20Acre%20Rd%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1631802820635!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <br><br>
+        <form action="mailto:ysinagaw@syr.edu" method="post">
+
+            <label for="flname">First and Last Name:</label>
+            <input type="text" id="flname" name="fullname">
+
+            <p>Why are you filling out this form?</p>
+            <input type="radio" id="option1" name="question" value="need to schedule a meeting">
+            <label for="option1">need to schedule a meeting</label>
+            <input type="radio" id="option2" name="question" value="general question">
+            <label for="option2">general question</label>
+            <input type="radio" id="option4" name="question" value="other reasons">
+            <label for="option4">other reasons</label>
+            <br><br>
+            <label for="explanation">Explanation:</label>
+            <textarea id="explanation" name="detailed response">Explain more based on your previous answer.</textarea>
+            <br><br>
+            <input type="submit" value="Send My Complaint">
+        </form>
+    </body>
+</html>
