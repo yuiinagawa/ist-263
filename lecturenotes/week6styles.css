@@ -1,0 +1,18 @@
+p {
+    color:hotpink;
+    font-size: 200%;
+    /* we are selecting all the paragraphs, changing font, color, and size */
+}
+h1{
+    color:mediumslateblue;
+    letter-spacing: 1.1em;
+    word-spacing: 1.1em;
+    /* you can lookup all different text effects in w3schools */
+}
+p, h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+    /* only changing LINKS inside p tags (descendant selector) */
+p a {
+    color: orange;
+}
