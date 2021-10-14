@@ -1,0 +1,30 @@
+body {
+    background-color: #6c20b8
+}
+p, form, table, ul {
+    color: #ffffff;
+    background-color: #b681fa
+}
+h1, h2 {
+    color: #669ef3;
+}
+a:link {
+    color: #ffffff;
+}
+a:visited {
+    color: #000000;
+}
+a:hover {
+    color:#f556e0;
+}
+nav {
+    background-color: #9dbdfa;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.navselector a {
+    color: #ffffff;
+}
+.navselector a:hover {
+    background-color: #0c88b9;
+}
