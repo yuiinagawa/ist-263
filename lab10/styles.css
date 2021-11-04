@@ -28,3 +28,6 @@ nav {
 .navselector a:hover {
     background-color: #0c88b9;
 }
+.indeximage {
+    max-width: 100%;
+}
