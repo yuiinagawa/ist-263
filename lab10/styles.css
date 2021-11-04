@@ -31,3 +31,9 @@ nav {
 .indeximage {
     max-width: 100%;
 }
+@media only screen and (max-width: 700px) {
+    a {display: block; margin-bottom: 1em;}
+}
+@media only screen and (max-width: 700px) {
+    span {display: none;}
+}
