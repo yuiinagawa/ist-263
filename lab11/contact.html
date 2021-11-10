@@ -59,6 +59,9 @@
             left: 10px;
             font-size: 2em;
         }
+        body {
+            color: black;
+        }
         </style>
     </head>
     <body>
@@ -98,11 +101,13 @@
             <input type="text" id="flname" name="fullname">
 
             <p>Why are you filling out this form?</p>
+            <fieldset>
             <input type="radio" id="option1" name="question" value="need to schedule a meeting">
             <label for="option1">need to schedule a meeting</label>
             <input type="radio" id="option2" name="question" value="general question">
             <label for="option2">general question</label>
             <input type="radio" id="option4" name="question" value="other reasons">
+            </fieldset>
             <label for="option4">other reasons</label>
             <br><br>
             <label for="explanation">Explanation:</label>

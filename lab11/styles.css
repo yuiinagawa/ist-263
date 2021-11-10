@@ -3,14 +3,14 @@ body {
     font-size: 2em;
 }
 p, form, table, ul {
-    color: #ffffff;
+    color:black;
     background-color: #b681fa
 }
 h1, h2 {
-    color: #669ef3;
+    color: darkslateblue;
 }
 a:link {
-    color: #ffffff;
+    color: darkmagenta;
 }
 a:visited {
     color: #000000;
@@ -24,7 +24,7 @@ nav {
     margin-bottom: 30px;
 }
 .navselector a {
-    color: #ffffff;
+    color:darkviolet;
 }
 .navselector a:hover {
     background-color: #0c88b9;
