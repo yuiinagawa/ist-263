@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 12 Notes</title>
+    <script>
+        //this is where our javascript goes
+        //every line of javascript needs a ; at the end
+        function firstFunction () {
+            alert ('Hello World');
+        }
+        //functions are names blocks of code
+        //you can find errors in console by inspecting
+        function secondFunction () {
+            alert('Second alert.');
+        }
+        function passwordMessage () {
+            alert ('You did not type a password');
+        }
+    </script>
+</head>
+<body onload="firstFunction();">
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    <a href="" onclick="secondFunction();">This is an alert that will say second alert.</a>
+    <!-- onclick is an event, it will run the code inside secondFunction-->
+
+    <form>
+        <label for="username">Username: </label><br>
+        <input type="text" name="username" id="username"><br>
+        <label>Password: </label><br>
+        <input type="text" name="password" id= "passoword" onblur="passwordMessage();"><br>
+        <input type="submit">
+    </form>
+</body>
+</html>
