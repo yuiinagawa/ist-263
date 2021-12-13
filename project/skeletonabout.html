@@ -5,134 +5,247 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <style>
+     body {
+            background-color: rgb(211, 252, 204);
+        }
+        div {
+            display: flex;
+        }
+        .top {
+            justify-content: space-between;
+        }
+        .logo {
+            padding: .7em;
+        }
+        nav {
+            justify-content: flex-end;
+            text-align: right;
+            margin-right: 1em;
+            margin-bottom: .3em;
+        }
+        h1 {
+            font-size: 3.5em;
+            text-align: center;
+            color: rgb(16, 66, 47)
+        }
+        h2 {
+            font-size: 2em;
+            text-align: center;
+        }
+        .toppic {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            padding-bottom: 5em;
+            max-width: 100%;
+        }
+        .nav {
+            margin: 1em;
+        }
+        p {
+            padding-left: 5em;
+            padding-right: 5em;
+            padding-bottom: 5em;
+            font-size: 1.5em;
+        }
+        a:link {
+            color: rgb(18, 61, 18);
+        }
+        a:visited {
+            color: #000000;
+        }     
+        a:hover {
+            color:#0004ff;
+        }      
+        .navselector {
+            justify-content: flex-end;
+            text-align: right;
+        }
+        .topfooter, .bottomfooter {
+            justify-content: space-between;
+        }
+        h1, h2 {
+            font-family: 'Abril Fatface';
+        }
+        .bio {
+            display: flex;
+        }
+        .school {
+            padding: 1em;
+            margin-right: 1em;
+            margin-top: 5em;
+            margin-bottom: 5em;
+        }
+        .schoolpic {
+            max-width: 100;
+        }
+        .description {
+            margin-top: 5em;
+        }
+        @media only screen and (max-width: 600px) {
+            h2 {max-width: 100%;} 
+            .bio {flex-direction: column;}
+        }
+        .coolpic1, .coolpic2 {
+            display: flex;
+            justify-content: center;
+            padding: .1em;
+            max-width: 100%;
+        }
+        .coolpic2 {
+            margin-bottom: 2em;
+        }
+        .edm {
+            padding: .3em;
+        }
+        .date {
+            padding: 1em;
+            padding-left: 3em;
+        }
+        .words {
+            padding-top: 1em;
+            padding-left: 5em;
+        }
+    </style>
 </head>
 <body>
-    <img src="images/logo.png" width="100" alt="my photo">
-    <nav class= "navselector">
-        <a href="skeletonhome.html">Home</a>
-        <a href="skeletonabout.html">About</a>
-        <a href="https://open.spotify.com/artist/3ApUX1o6oSz321MMECyIYd?si=9urx1mO3T42QqK4Y2ea1YQ" target="_blank">Music</a>
-        <a href="skeletonmore.html">More Like This</a>
-    </nav>
-    <nav>
-        <a href="https://www.facebook.com/quinnxcii">
-            <img src="images/facebook.png" width="20" alt="my photo">
-        </a>
-        <a href="https://www.instagram.com/quinnxcii/">
-            <img src="images/instagram.png" width="20" alt="my photo">
-        </a>
-        <a href="https://open.spotify.com/artist/3ApUX1o6oSz321MMECyIYd?si=9urx1mO3T42QqK4Y2ea1YQ">
-            <img src="images/spotify.png" width="20" alt="my photo">
-        </a>
-        <a href="https://twitter.com/QuinnXCII?s=20">
-            <img src="images/twitter.png" width="20" alt="my photo">
-        </a>
-        <a href="https://quinnxcii.com">
-            <img src="images/web.png" width="20" alt="my photo">
-        </a>
+    <div class="top">
+        <div>
+            <div class="mylogo">
+                <div><img src="images/logo.png" width="100" alt="my photo"></div>
+            </div>
+        </div>
+        <div class="socials">
+            <div>
+                <div class="logo"><a href="https://www.facebook.com/quinnxcii"><img src="images/facebook.png" width="20" alt="my photo"></a></div>
+                <div class="logo"><a href="https://www.instagram.com/quinnxcii/"><img src="images/instagram.png" width="20" alt="my photo"></a></div>
+                <div class="logo"><a href="https://open.spotify.com/artist/3ApUX1o6oSz321MMECyIYd?si=9urx1mO3T42QqK4Y2ea1YQ"><img src="images/spotify.png" width="20" alt="my photo"></a></div>
+                <div class="logo"><a href="https://twitter.com/QuinnXCII?s=20"><img src="images/twitter.png" width="20" alt="my photo"></a></div>
+                <div class="logo"><a href="https://quinnxcii.com"><img src="images/web.png" width="20" alt="my photo"></a></div>
+            </div>
+        </div>
+    </div>
+        <h1>About Quinn XCII!</h1>
+        <nav class= "navselector">
+            <a class="nav" href="skeletonhome.html">Home</a>
+            <a class="nav" href="skeletonabout.html">About</a>
+            <a class="nav" href="https://open.spotify.com/artist/3ApUX1o6oSz321MMECyIYd?si=9urx1mO3T42QqK4Y2ea1YQ" target="_blank">Music</a>
+            <a class="nav" href="skeletonmore.html">More Like This</a>
         </nav>
-    <img src="images/about1.jpg" width="900" alt="my photo">
-    <h1>Biography</h1>
-    <p>Quinn XCII is a 29 year-old American singer-songwriter from Detroit, Michigan. His birth name is Michael Temoroski, but his fans know him by his stage name; Quinn XCII. Quinn XCII is an acronym for “Quit Unless your Instincts are Never Neglected” followed by his birth year, ‘92. Quinn adopted this quote from one of his professors at Michigan State University, where he attended college. Sophomore year of college is when Quinn began to pursue his interest in music by singing/writing his own songs and uploading them to YouTube. At this early stage in his career, he went by “Mike T” before he came up with Quinn XCII. </p>
-    <img src="images/about2.jpg" width="300" alt="my photo">
+<section>
+    <img class="toppic"src="images/about1new.jpg" width="1355" alt="my photo">
+    <h2>Biography</h2>
+<div class="bio">
+    <div class="description"><p>Quinn XCII is a 29 year-old American singer-songwriter from Detroit, Michigan. His birth name is Michael Temoroski, but his fans know him by his stage name; Quinn XCII. Quinn XCII is an acronym for “Quit Unless your Instincts are Never Neglected” followed by his birth year, ‘92. Quinn adopted this quote from one of his professors at Michigan State University, where he attended college. Sophomore year of college is when Quinn began to pursue his interest in music by singing/writing his own songs and uploading them to YouTube. At this early stage in his career, he went by “Mike T” before he came up with Quinn XCII. </p></div>
+    <div class="schoolpic"><img class="school" src="images/about2.jpg" width="700" alt="my photo"></div>
+</div>
     <hr>
-    <h1>Photos</h1>
-    <img src="images/about3.jpg" width="400" alt="my photo">
-    <img src="images/about4.jpg" width="400" alt="my photo">
-    <img src="images/about5.jpg" width="400" alt="my photo">
-    <img src="images/about6.jpg" width="400" alt="my photo">
-    <img src="images/about7.jpg" width="400" alt="my photo">
-    <img src="images/about8.jpg" width="400" alt="my photo">
+</section>
+    <h2>Photos</h2>
+        <div class="coolpic1">
+            <img class="edm" src="images/about3.jpg" width="400" alt="my photo">
+            <img class="edm" src="images/about4.jpg" width="400" alt="my photo">
+            <img class="edm" src="images/about5.jpg" width="400" alt="my photo">
+        </div>
+        <div class="coolpic2">
+            <img class="edm" src="images/about6.jpg" width="400" alt="my photo">
+            <img class="edm" src="images/about7.jpg" width="400" alt="my photo">
+            <img class="edm" src="images/about8.jpg" width="400" alt="my photo">
+        </div>
     <hr>
-    <h1>Career Timeline</h1>
-    <strong>August, 2011-</strong>
+    <h2>Career Timeline</h2>
+    <strong class="date" style="font-size: 25px;">August, 2011-</strong>
     <br>
-    released his first original song “They Know” on Youtube
+    <div class="words" style="font-size: 20px;">released his first original song “They Know” on Youtube</div>
     <br>
+    <strong class="date" style="font-size: 25px;">November, 2015-</strong>
     <br>
-    <strong>November, 2015-</strong>
+    <div class="words" style="font-size: 20px;">released his second original song “Old Fashioned” on Youtube</div>
     <br>
-    released his second original song “Old Fashioned” on Youtube
+    <strong class="date" style="font-size: 25px;">May, 2015-</strong>
     <br>
+    <div class="words" style="font-size: 20px;">released his first album called Change of Scenery on Spotify</div>
     <br>
-    <strong>May, 2015-</strong>
+    <strong class="date" style="font-size: 25px;">October, 2015-</strong>
     <br>
-    released his first album called Change of Scenery on Spotify
+    <div class="words" style="font-size: 20px;">released a single called “Stung” which hit #1 on Hype Machine's Popular Charts</div>
     <br>
+    <strong class="date" style="font-size: 25px;">January, 2016-</strong>
     <br>
-    <strong>October, 2015-</strong>
+    <div class="words" style="font-size: 20px;">featured on his friend Ayokay’s song “Kings of Summer” which became #1 on Spotify’s Global Viral Chart for 3 consecutive weeks</div>
     <br>
-    released a single called “Stung” which hit #1 on Hype Machine's Popular Charts
+    <strong class="date" style="font-size: 25px;">February, 2016-</strong>
     <br>
+    <div class="words" style="font-size: 20px;">feature on the artist  Illenium’s song “With You” became #1 on the HyperMachine Popular Chart and #20 on Spotify’s Global Viral Chart</div>
     <br>
-    <strong>January, 2016-</strong>
+    <strong class="date" style="font-size: 25px;">March, 2016-</strong>
     <br>
-    featured on his friend Ayokay’s song “Kings of Summer” which became #1 on Spotify’s Global Viral Chart for 3 consecutive weeks
+    <div class="words" style="font-size: 20px;">released “Bloom” album</div>
     <br>
+    <strong class="date" style="font-size: 25px;">September, 2017-</strong>
     <br>
-    <strong>February, 2016-</strong>
+    <div class="words" style="font-size: 20px;">released “The Story of Us” album</div>
     <br>
-    feature on the artist  Illenium’s song “With You” became #1 on the HyperMachine Popular Chart and #20 on Spotify’s Global Viral Chart
+    <strong class="date" style="font-size: 25px;">February, 2018-</strong>
     <br>
+    <div class="words" style="font-size: 20px;">released “The Story of Us” (Deluxe) album</div>
     <br>
-    <strong>March, 2016-</strong>
+    <strong class="date" style="font-size: 25px;">February, 2019-</strong>
     <br>
-    released “Bloom” album
+    <div class="words" style="font-size: 20px;">released “From Michigan with Love” album</div>
     <br>
+    <strong class="date" style="font-size: 25px;">July, 2020-</strong>
     <br>
-    <strong>September, 2017-</strong>
+    <div class="words" style="font-size: 20px;">released A Letter to My Younger Self” album</div>
     <br>
-    released “The Story of Us” album
+    <strong class="date" style="font-size: 25px;">March, 2021-</strong>
     <br>
-    <br>
-    <strong>February, 2018-</strong>
-    <br>
-    released “The Story of Us” (Deluxe) album
-    <br>
-    <br>
-    <strong>February, 2019-</strong>
-    <br>
-    released “From Michigan with Love” album
-    <br>
-    <br>
-    <strong>July, 2020-</strong>
-    <br>
-    released A Letter to My Younger Self” album
-    <br>
-    <br>
-    <strong>March, 2021-</strong>
-    <br>
-    released “Change of Scenery 2” album
+    <div class="words" style="font-size: 20px;">released “Change of Scenery 2” album</div>
     <br>
     <hr>
-    <br>
     <footer>
-    &copy; 2021 Yui - All Rights Reserved
-    <br>
-    <strong>Privacy Policy / Your Privacy Rights / Terms and Conditions</strong>
-    <nav class= "navselector">
-        <a href="skeletonhome.html">Home</a>
-        <a href="skeletonabout.html">About</a>
-        <a href="https://open.spotify.com/artist/3ApUX1o6oSz321MMECyIYd?si=9urx1mO3T42QqK4Y2ea1YQ" target="_blank">Music</a>
-        <a href="skeletonmore.html">More Like This</a>
-    </nav>
-    <nav>
-        <a href="https://www.facebook.com/quinnxcii">
-            <img src="images/facebook.png" width="20" alt="my photo">
-        </a>
-        <a href="https://www.instagram.com/quinnxcii/">
-            <img src="images/instagram.png" width="20" alt="my photo">
-        </a>
-        <a href="https://open.spotify.com/artist/3ApUX1o6oSz321MMECyIYd?si=9urx1mO3T42QqK4Y2ea1YQ">
-            <img src="images/spotify.png" width="20" alt="my photo">
-        </a>
-        <a href="https://twitter.com/QuinnXCII?s=20">
-            <img src="images/twitter.png" width="20" alt="my photo">
-        </a>
-        <a href="https://quinnxcii.com">
-            <img src="images/web.png" width="20" alt="my photo">
-        </a>
-    </nav>
+        <div class="topfooter">
+            <div>
+                <div>&copy; 2021 Yui - All Rights Reserved</div>
+            </div>
+            <div>
+                <div class= "navselector">
+                    <a class="nav" href="skeletonhome.html">Home</a>
+                    <a class="nav" href="skeletonabout.html">About</a>
+                    <a class="nav" href="https://open.spotify.com/artist/3ApUX1o6oSz321MMECyIYd?si=9urx1mO3T42QqK4Y2ea1YQ" target="_blank">Music</a>
+                    <a class="nav" href="skeletonmore.html">More Like This</a>
+                </div>
+            </div>
+        </div>
+        <div class="bottomfooter">
+            <div>
+            <div><strong>Privacy Policy / Your Privacy Rights / Terms and Conditions</strong></div>
+            </div>
+            <div>
+                <div>
+                    <a class="logo" href="https://www.facebook.com/quinnxcii">
+                        <img src="images/facebook.png" width="20" alt="my photo">
+                    </a>
+                    <a class="logo" href="https://www.instagram.com/quinnxcii/">
+                        <img src="images/instagram.png" width="20" alt="my photo">
+                    </a>
+                    <a class="logo" href="https://open.spotify.com/artist/3ApUX1o6oSz321MMECyIYd?si=9urx1mO3T42QqK4Y2ea1YQ">
+                        <img src="images/spotify.png" width="20" alt="my photo">
+                    </a>
+                    <a class="logo" href="https://twitter.com/QuinnXCII?s=20">
+                        <img src="images/twitter.png" width="20" alt="my photo">
+                    </a>
+                    <a class="logo" href="https://quinnxcii.com">
+                        <img src="images/web.png" width="20" alt="my photo">
+                    </a>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>

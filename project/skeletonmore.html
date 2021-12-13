@@ -5,96 +5,210 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>More Like This</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <style>
+            body {
+            background-color: rgb(211, 252, 204);
+        }
+        div {
+            display: flex;
+        }
+        .top {
+            justify-content: space-between;
+        }
+        .logo {
+            padding: .7em;
+        }
+        nav {
+            justify-content: flex-end;
+            text-align: right;
+            margin-right: 1em;
+            margin-bottom: .3em;
+        }
+        h1 {
+            font-size: 3.5em;
+            text-align: center;
+            color: rgb(16, 66, 47)
+        }
+        h2 {
+            font-size: 2em;
+            text-align: center;
+        }
+        .intropic {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            padding-bottom: 5em;
+            max-width: 100%;
+        }
+        .nav {
+            margin: 1em;
+        }
+        p {
+            padding-left: 5em;
+            padding-right: 5em;
+            padding-bottom: 3em;
+            font-size: 1.5em;
+        }
+        a:link {
+            color: rgb(18, 61, 18);
+        }
+        a:visited {
+            color: #000000;
+        }     
+        a:hover {
+            color:#0004ff;
+        }      
+        .navselector {
+            justify-content: flex-end;
+            text-align: right;
+        }
+        .topfooter, .bottomfooter {
+            justify-content: space-between;
+        }
+        h1, h2 {
+            font-family: 'Abril Fatface';
+        }
+       .subbox {
+           justify-content: center;
+       }
+        .minispotify{
+            margin-top: 1.7em;
+            margin-left: 1em;
+        }
+        .ayokaybox, .chelseabox, .jeremybox {
+            flex-direction: column;
+        }
+        .watch {
+            justify-content: center;
+        }
+        .link {
+            justify-content: center;
+        }
+        .break {
+            display: block;
+            margin-bottom: 1em;
+        }
+    </style>
 </head>
 <body>
-    <img src="images/logo.png" width="100" alt="my photo">
-    <nav class= "navselector">
-        <a href="skeletonhome.html">Home</a> |
-        <a href="skeletonabout.html">About</a> |
-        <a href="https://open.spotify.com/artist/3ApUX1o6oSz321MMECyIYd?si=9urx1mO3T42QqK4Y2ea1YQ" target="_blank">Music</a> |
-        <a href="skeletonmore.html">More Like This</a> |
-    </nav>
-    <nav>
-        <a href="https://www.facebook.com/quinnxcii">
-            <img src="images/facebook.png" width="20" alt="my photo">
-        </a>
-        <a href="https://www.instagram.com/quinnxcii/">
-            <img src="images/instagram.png" width="20" alt="my photo">
-        </a>
-        <a href="https://open.spotify.com/artist/3ApUX1o6oSz321MMECyIYd?si=9urx1mO3T42QqK4Y2ea1YQ">
-            <img src="images/spotify.png" width="20" alt="my photo">
-        </a>
-        <a href="https://twitter.com/QuinnXCII?s=20">
-            <img src="images/twitter.png" width="20" alt="my photo">
-        </a>
-        <a href="https://quinnxcii.com">
-            <img src="images/web.png" width="20" alt="my photo">
-        </a>
-        </nav>
-        <a href="https://open.spotify.com/artist/3ApUX1o6oSz321MMECyIYd?si=9urx1mO3T42QqK4Y2ea1YQ">
-            <img src="images/more1.png" width="900" alt="my photo">
-        </a>
+    <div class="top">
+        <div>
+            <div class="mylogo">
+                <div><img src="images/logo.png" width="100" alt="my photo"></div>
+            </div>
+        </div>
+        <div class="socials">
+            <div>
+                <div class="logo"><a href="https://www.facebook.com/quinnxcii"><img src="images/facebook.png" width="20" alt="my photo"></a></div>
+                <div class="logo"><a href="https://www.instagram.com/quinnxcii/"><img src="images/instagram.png" width="20" alt="my photo"></a></div>
+                <div class="logo"><a href="https://open.spotify.com/artist/3ApUX1o6oSz321MMECyIYd?si=9urx1mO3T42QqK4Y2ea1YQ"><img src="images/spotify.png" width="20" alt="my photo"></a></div>
+                <div class="logo"><a href="https://twitter.com/QuinnXCII?s=20"><img src="images/twitter.png" width="20" alt="my photo"></a></div>
+                <div class="logo"><a href="https://quinnxcii.com"><img src="images/web.png" width="20" alt="my photo"></a></div>
+            </div>
+        </div>
+    </div>
     <h1>Interested in more music like Quinn XCII?</h1>
-    <h2>Check out the artists below!</h2>
-    <br>
+    <div class="subbox">
+        <div class="subtitle"><h2>Check out the artists below! Or...</h2></div>
+        <div class="minispotify"><a href="https://open.spotify.com/artist/3ApUX1o6oSz321MMECyIYd?si=9urx1mO3T42QqK4Y2ea1YQ">
+            <img src="images/more1.png" width="110" alt="my photo">
+        </a></div>
+    </div>
+    <nav class= "navselector">
+        <a class="nav" href="skeletonhome.html">Home</a>
+        <a class="nav" href="skeletonabout.html">About</a>
+        <a class="nav" href="https://open.spotify.com/artist/3ApUX1o6oSz321MMECyIYd?si=9urx1mO3T42QqK4Y2ea1YQ" target="_blank">Music</a>
+        <a class="nav" href="skeletonmore.html">More Like This</a>
+    </nav>
+    <img class="intropic" src="images/more2.jpg" width= "1355" alt="my photo">
     <h2><strong>Chelsea Cutler</strong></h2>
-    <p>Chelsea Cutler: 24 year-old American singer-songwriter<br>
-        Top 3 song recommendations: “Not Okay”, “The Reason”, “Sad Tonight”<br>
-        Connection to Quinn XCII: Chelsea Cutler and Quinn XCII do many collaborations together such as “Flare Guns”, “Little Things”, “Stay Next to Me”
+    <p><strong>Chelsea Cutler: 24 year-old American singer-songwriter</strong><br>
+        <span class="break"></span>
+        <u>Top 3 song recommendations:</u> “Not Okay”, “The Reason”, “Sad Tonight”<br>
+        <span class="break"></span>
+        <u>Connection to Quinn XCII:</u> Chelsea Cutler and Quinn XCII do many collaborations together such as “Flare Guns”, “Little Things”, “Stay Next to Me”
     </p>
-    <a href="https://youtu.be/EMmxVLi3dxg">
+    <div class="chelseabox">
+        <div style="font-size: 3em" class="watch">Click below to watch the music video!</div>
+    <div class="link"><a href="https://youtu.be/EMmxVLi3dxg">
         <img src="images/flare.png" width="700" alt="my photo">
-    </a>
-    <a href="https://youtu.be/EYTUV32Gi0o">
+    </a></div>
+    <div class="link"><a href="https://youtu.be/EYTUV32Gi0o">
         <img src="images/stay.png" width="700" alt="my photo">
-    </a>
+    </a></div>
+    </div>
     <hr>
     <h2><strong>Ayokay</strong></h2>
-    <p>Ayokay: 29 year-old American producer and DJ<br>
-        Top 3 song recommendations: “Kings of Summer”, “Stay with me”, “Queen”<br>
-        Connection to Quinn XCII: Ayokay is Quinn XCII’s highschool friend who eventually became his primary producer
+    <p><strong>Ayokay: 29 year-old American producer and DJ</strong><br>
+        <span class="break"></span>
+        <u>Top 3 song recommendations:</u> “Kings of Summer”, “Stay with me”, “Queen”<br>
+        <span class="break"></span>
+        <u>Connection to Quinn XCII:</u> Ayokay is Quinn XCII’s highschool friend who eventually became his primary producer
     </p>
-    <a href="https://youtu.be/5dS-n8qZjPk">
-        <img src="images/kings.png" width="700" alt="my photo">
-    </a>
+    <div class="ayokaybox">
+        <div style="font-size: 3em" class= "watch">Click below to watch the music video!</div>
+        <div class="link"><a href="https://youtu.be/5dS-n8qZjPk">
+            <img src="images/kings.png" width="700" alt="my photo">
+        </a></div>
+    </div>
     <hr>
     <h2><strong>Jeremy Zucker</strong></h2>
-    <p>Jeremy Zucker: 25 year-old American singer-songwriter<br>
-        Top 3 song recommendations: “All the Kids are Depressed”, “Comethru”, “Talk is Overrated”<br>
-        Connection to Quinn XCII: Jeremy has a song with Quinn XCII called “Doris Terrace” and he has a couple songs with Chelsea Cutler such as, “You Were Good to Me” and “Please”
+    <p><strong>Jeremy Zucker: 25 year-old American singer-songwriter</strong><br>
+        <span class="break"></span>
+        <u>Top 3 song recommendations:</u> “All the Kids are Depressed”, “Comethru”, “Talk is Overrated”<br>
+        <span class="break"></span>
+        <u>Connection to Quinn XCII:</u> Jeremy has a song with Quinn XCII called “Doris Terrace” and he has a couple songs with Chelsea Cutler such as, “You Were Good to Me” and “Please”
     </p>
-    <a href="https://youtu.be/LcJxiMCV2qc">
-        <img src="images/dorris.png" width="700" alt="my photo">
-    </a>
+    <div class="jeremybox">
+        <div style="font-size: 3em" class= "watch">Click below to watch the music video!</div>
+        <div class="link"><a href="https://youtu.be/LcJxiMCV2qc">
+            <img src="images/dorris.png" width="700" alt="my photo">
+        </a></div>
+    </div>
     <hr>
     <br>
     <footer>
-    &copy; 2021 Yui - All Rights Reserved
-    <br>
-    <strong>Privacy Policy / Your Privacy Rights / Terms and Conditions</strong>
-    <nav class= "navselector">
-        <a href="skeletonhome.html">Home</a>
-        <a href="skeletonabout.html">About</a>
-        <a href="https://open.spotify.com/artist/3ApUX1o6oSz321MMECyIYd?si=9urx1mO3T42QqK4Y2ea1YQ" target="_blank">Music</a>
-        <a href="skeletonmore.html">More Like This</a>
-    </nav>
-    <nav>
-        <a href="https://www.facebook.com/quinnxcii">
-            <img src="images/facebook.png" width="20" alt="my photo">
-        </a>
-        <a href="https://www.instagram.com/quinnxcii/">
-            <img src="images/instagram.png" width="20" alt="my photo">
-        </a>
-        <a href="https://open.spotify.com/artist/3ApUX1o6oSz321MMECyIYd?si=9urx1mO3T42QqK4Y2ea1YQ">
-            <img src="images/spotify.png" width="20" alt="my photo">
-        </a>
-        <a href="https://twitter.com/QuinnXCII?s=20">
-            <img src="images/twitter.png" width="20" alt="my photo">
-        </a>
-        <a href="https://quinnxcii.com">
-            <img src="images/web.png" width="20" alt="my photo">
-        </a>
-        </nav>
+        <div class="topfooter">
+            <div>
+                <div>&copy; 2021 Yui - All Rights Reserved</div>
+            </div>
+            <div>
+                <div class= "navselector">
+                    <a class="nav" href="skeletonhome.html">Home</a>
+                    <a class="nav" href="skeletonabout.html">About</a>
+                    <a class="nav" href="https://open.spotify.com/artist/3ApUX1o6oSz321MMECyIYd?si=9urx1mO3T42QqK4Y2ea1YQ" target="_blank">Music</a>
+                    <a class="nav" href="skeletonmore.html">More Like This</a>
+                </div>
+            </div>
+        </div>
+        <div class="bottomfooter">
+            <div>
+            <div><strong>Privacy Policy / Your Privacy Rights / Terms and Conditions</strong></div>
+            </div>
+            <div>
+                <div>
+                    <a class="logo" href="https://www.facebook.com/quinnxcii">
+                        <img src="images/facebook.png" width="20" alt="my photo">
+                    </a>
+                    <a class="logo" href="https://www.instagram.com/quinnxcii/">
+                        <img src="images/instagram.png" width="20" alt="my photo">
+                    </a>
+                    <a class="logo" href="https://open.spotify.com/artist/3ApUX1o6oSz321MMECyIYd?si=9urx1mO3T42QqK4Y2ea1YQ">
+                        <img src="images/spotify.png" width="20" alt="my photo">
+                    </a>
+                    <a class="logo" href="https://twitter.com/QuinnXCII?s=20">
+                        <img src="images/twitter.png" width="20" alt="my photo">
+                    </a>
+                    <a class="logo" href="https://quinnxcii.com">
+                        <img src="images/web.png" width="20" alt="my photo">
+                    </a>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
