@@ -62,23 +62,11 @@
             margin-left: auto;
             margin-right: auto;
         }
-        .wholetable {
-            margin-left: 1em;
-        }
-        td {
-            padding: 1em;
-            padding-inline-end: 7em;
-            font-size: 1.5em;
-        }
         .images {
             display: flex;
             flex-wrap: wrap;
             flex-direction: column;
             align-content: space-between;
-        }
-        .imagestogether {
-            margin-top: 10em;
-            margin-right: 3em;
         }
         .ticket {
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -93,12 +81,6 @@
         a:hover {
             color:#0004ff;
         }      
-        .both {
-            margin-left: 5em;
-        }
-        .imageblue {
-            margin-bottom: 7em;
-        }
         .imageblue, .imageblack {
             background-color: rgb(132, 196, 233);
             padding: 1em;
@@ -114,9 +96,19 @@
         h1, h2 {
             font-family: 'Abril Fatface';
         }
+        @media only screen and (min-width: 600px) {
+            .wholetable {margin-left: 1em;} 
+            td {padding: 1em; padding-inline-end: 7em; font-size: 1.5em;}
+            .both {margin-left: 5em;}
+            .imagestogether {margin-top: 10em; margin-right: 3em;}
+            .imageblue {margin-bottom: 7em;}
+        }
         @media only screen and (max-width: 600px) {
             h2 {max-width: 100%;} 
             .both {flex-wrap: wrap;}
+            .images {margin-left: 4.5em;}
+            td {padding: 1em; padding-inline-end: 1em; font-size: 1em;}
+            .imageblue {margin-bottom: 2em;}
         }   
     </style>
 </head>
@@ -129,11 +121,11 @@
         </div>
         <div class="socials">
             <div>
-                <div class="logo"><a href="https://www.facebook.com/quinnxcii"><img src="images/facebook.png" width="20" alt="my photo"></a></div>
-                <div class="logo"><a href="https://www.instagram.com/quinnxcii/"><img src="images/instagram.png" width="20" alt="my photo"></a></div>
-                <div class="logo"><a href="https://open.spotify.com/artist/3ApUX1o6oSz321MMECyIYd?si=9urx1mO3T42QqK4Y2ea1YQ"><img src="images/spotify.png" width="20" alt="my photo"></a></div>
-                <div class="logo"><a href="https://twitter.com/QuinnXCII?s=20"><img src="images/twitter.png" width="20" alt="my photo"></a></div>
-                <div class="logo"><a href="https://quinnxcii.com"><img src="images/web.png" width="20" alt="my photo"></a></div>
+                <div class="logo"><a href="https://www.facebook.com/quinnxcii"><img src="images/facebook.png" width="20" alt="Quinn XII Facebook"></a></div>
+                <div class="logo"><a href="https://www.instagram.com/quinnxcii/"><img src="images/instagram.png" width="20" alt="Quinn XCII Instagram"></a></div>
+                <div class="logo"><a href="https://open.spotify.com/artist/3ApUX1o6oSz321MMECyIYd?si=9urx1mO3T42QqK4Y2ea1YQ"><img src="images/spotify.png" width="20" alt="Quinn XCII Spotify"></a></div>
+                <div class="logo"><a href="https://twitter.com/QuinnXCII?s=20"><img src="images/twitter.png" width="20" alt="Quinn XCII Twitter"></a></div>
+                <div class="logo"><a href="https://quinnxcii.com"><img src="images/web.png" width="20" alt="Quinn XCII Website"></a></div>
             </div>
         </div>
     </div>

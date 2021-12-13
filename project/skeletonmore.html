@@ -75,10 +75,6 @@
        .subbox {
            justify-content: center;
        }
-        .minispotify{
-            margin-top: 1.7em;
-            margin-left: 1em;
-        }
         .ayokaybox, .chelseabox, .jeremybox {
             flex-direction: column;
         }
@@ -86,11 +82,47 @@
             justify-content: center;
         }
         .link {
-            justify-content: center;
+            margin-bottom: 1em;
         }
         .break {
             display: block;
             margin-bottom: 1em;
+        }
+        .flareguns {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .stay {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .kings {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .dorris {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        @media only screen and (min-width: 600px) {
+            .flareguns {width: 70%;} 
+            .stay {width: 70%}
+            .kings {width: 70%}
+            .dorris {width: 70%}
+            .watch {font-size: 3em;}
+            .minispotify {margin-top: 1.7em; margin-left: 1em;}
+        }
+        @media only screen and (max-width: 600px) {
+            .flareguns {width: 100%;} 
+            .stay {width: 100%}
+            .kings {width: 100%}
+            .dorris {width: 100%}
+            .watch {font-size: 1.5em;}
+            .minispotify {margin-top: 4em; margin-left: 1em; margin-right: 1em}
         }
     </style>
 </head>
@@ -133,12 +165,12 @@
         <u>Connection to Quinn XCII:</u> Chelsea Cutler and Quinn XCII do many collaborations together such as “Flare Guns”, “Little Things”, “Stay Next to Me”
     </p>
     <div class="chelseabox">
-        <div style="font-size: 3em" class="watch">Click below to watch the music video!</div>
+        <div class="watch">Click below to watch the music video!</div>
     <div class="link"><a href="https://youtu.be/EMmxVLi3dxg">
-        <img src="images/flare.png" width="700" alt="my photo">
+        <img class="flareguns" src="images/flare.png" alt="my photo">
     </a></div>
     <div class="link"><a href="https://youtu.be/EYTUV32Gi0o">
-        <img src="images/stay.png" width="700" alt="my photo">
+        <img class="stay" src="images/stay.png" alt="my photo">
     </a></div>
     </div>
     <hr>
@@ -150,9 +182,9 @@
         <u>Connection to Quinn XCII:</u> Ayokay is Quinn XCII’s highschool friend who eventually became his primary producer
     </p>
     <div class="ayokaybox">
-        <div style="font-size: 3em" class= "watch">Click below to watch the music video!</div>
+        <div class= "watch">Click below to watch the music video!</div>
         <div class="link"><a href="https://youtu.be/5dS-n8qZjPk">
-            <img src="images/kings.png" width="700" alt="my photo">
+            <img class="kings" src="images/kings.png" alt="my photo">
         </a></div>
     </div>
     <hr>
@@ -164,9 +196,9 @@
         <u>Connection to Quinn XCII:</u> Jeremy has a song with Quinn XCII called “Doris Terrace” and he has a couple songs with Chelsea Cutler such as, “You Were Good to Me” and “Please”
     </p>
     <div class="jeremybox">
-        <div style="font-size: 3em" class= "watch">Click below to watch the music video!</div>
+        <div class= "watch">Click below to watch the music video!</div>
         <div class="link"><a href="https://youtu.be/LcJxiMCV2qc">
-            <img src="images/dorris.png" width="700" alt="my photo">
+            <img class="dorris" src="images/dorris.png" width="700" alt="my photo">
         </a></div>
     </div>
     <hr>

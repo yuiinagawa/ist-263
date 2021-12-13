@@ -75,21 +75,8 @@
         .bio {
             display: flex;
         }
-        .school {
-            padding: 1em;
-            margin-right: 1em;
-            margin-top: 5em;
-            margin-bottom: 5em;
-        }
-        .schoolpic {
-            max-width: 100;
-        }
         .description {
             margin-top: 5em;
-        }
-        @media only screen and (max-width: 600px) {
-            h2 {max-width: 100%;} 
-            .bio {flex-direction: column;}
         }
         .coolpic1, .coolpic2 {
             display: flex;
@@ -100,17 +87,28 @@
         .coolpic2 {
             margin-bottom: 2em;
         }
-        .edm {
-            padding: .3em;
+        .school {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
         }
-        .date {
-            padding: 1em;
-            padding-left: 3em;
+        @media only screen and (min-width: 600px) {
+            .school {width: 70%; padding: 1em; margin-right: 1em;} 
+            h2 {max-width: 100%;} 
+            .bio {flex-direction: column;}
+            .edm {width: 32%; padding: .3em;}
+            .words {padding-top: 1em; padding-left: 5em;}
+            .date {padding: 1em; padding-left: 3em;}
         }
-        .words {
-            padding-top: 1em;
-            padding-left: 5em;
-        }
+        @media only screen and (max-width: 600px) {
+            .school {width: 100%;} 
+            .bio {flex-direction: column;}
+            .edm {width: 100%; padding-bottom: .3em;}
+            .coolpic1 {flex-direction: column;}
+            .coolpic2 {flex-direction: column;}
+            .words {padding-top: 1em; padding-left: 2em;}
+            .date {padding: 1em; padding-left: 1em;}
+            }
     </style>
 </head>
 <body>
@@ -142,20 +140,20 @@
     <h2>Biography</h2>
 <div class="bio">
     <div class="description"><p>Quinn XCII is a 29 year-old American singer-songwriter from Detroit, Michigan. His birth name is Michael Temoroski, but his fans know him by his stage name; Quinn XCII. Quinn XCII is an acronym for “Quit Unless your Instincts are Never Neglected” followed by his birth year, ‘92. Quinn adopted this quote from one of his professors at Michigan State University, where he attended college. Sophomore year of college is when Quinn began to pursue his interest in music by singing/writing his own songs and uploading them to YouTube. At this early stage in his career, he went by “Mike T” before he came up with Quinn XCII. </p></div>
-    <div class="schoolpic"><img class="school" src="images/about2.jpg" width="700" alt="my photo"></div>
+    <div class="schoolpic"><img class="school" src="images/about2.jpg" alt="Quinn XCII College"></div>
 </div>
     <hr>
 </section>
     <h2>Photos</h2>
         <div class="coolpic1">
-            <img class="edm" src="images/about3.jpg" width="400" alt="my photo">
-            <img class="edm" src="images/about4.jpg" width="400" alt="my photo">
-            <img class="edm" src="images/about5.jpg" width="400" alt="my photo">
+            <img class="edm" src="images/about3.jpg" alt="my photo">
+            <img class="edm" src="images/about4.jpg" alt="my photo">
+            <img class="edm" src="images/about5.jpg" alt="my photo">
         </div>
         <div class="coolpic2">
-            <img class="edm" src="images/about6.jpg" width="400" alt="my photo">
-            <img class="edm" src="images/about7.jpg" width="400" alt="my photo">
-            <img class="edm" src="images/about8.jpg" width="400" alt="my photo">
+            <img class="edm" src="images/about6.jpg" alt="my photo">
+            <img class="edm" src="images/about7.jpg" alt="my photo">
+            <img class="edm" src="images/about8.jpg" alt="my photo">
         </div>
     <hr>
     <h2>Career Timeline</h2>
